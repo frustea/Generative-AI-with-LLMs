@@ -51,3 +51,9 @@ BloombergGPT: A Large Language Model for Finance
 https://arxiv.org/pdf/2303.17564.pdf
  - LLM trained specifically for the finance domain, a good example that tried to follow chinchilla laws.
 
+
+FLAN paper: Scaling Instruction-Finetuned Language Models
+https://arxiv.org/abs/2210.11416
+
+How Is ChatGPT’s Behavior Changing over Time?
+https://arxiv.org/pdf/2307.09009.pdf
