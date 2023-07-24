@@ -57,3 +57,30 @@ https://arxiv.org/abs/2210.11416
 
 How Is ChatGPT’s Behavior Changing over Time?
 https://arxiv.org/pdf/2307.09009.pdf
+
+
+
+# Model Evaluation Metrics
+HELM - Holistic Evaluation of Language Models
+https://crfm.stanford.edu/helm/latest/
+ - HELM is a living benchmark to evaluate Language Models more transparently. 
+
+General Language Understanding Evaluation (GLUE) benchmark
+https://openreview.net/pdf?id=rJ4km2R5t7
+ - This paper introduces GLUE, a benchmark for evaluating models on diverse natural language understanding (NLU) tasks and emphasizing the importance of improved general NLU systems.
+
+SuperGLUE
+https://super.gluebenchmark.com/
+ - This paper introduces SuperGLUE, a benchmark designed to evaluate the performance of various NLP models on a range of challenging language understanding tasks.
+
+ROUGE: A Package for Automatic Evaluation of Summaries
+https://aclanthology.org/W04-1013.pdf
+ - This paper introduces and evaluates four different measures (ROUGE-N, ROUGE-L, ROUGE-W, and ROUGE-S) in the ROUGE summarization evaluation package, which assess the quality of summaries by comparing them to ideal human-generated summaries.
+
+Measuring Massive Multitask Language Understanding (MMLU)
+https://arxiv.org/pdf/2009.03300.pdf
+ - This paper presents a new test to measure multitask accuracy in text models, highlighting the need for substantial improvements in achieving expert-level accuracy and addressing lopsided performance and low accuracy on socially important subjects.
+
+BigBench-Hard - Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models
+https://arxiv.org/pdf/2206.04615.pdf
+ - The paper introduces BIG-bench, a benchmark for evaluating language models on challenging tasks, providing insights on scale, calibration, and social bias.
