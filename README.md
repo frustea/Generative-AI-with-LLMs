@@ -84,3 +84,30 @@ https://arxiv.org/pdf/2009.03300.pdf
 BigBench-Hard - Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models
 https://arxiv.org/pdf/2206.04615.pdf
  - The paper introduces BIG-bench, a benchmark for evaluating language models on challenging tasks, providing insights on scale, calibration, and social bias.
+ - 
+
+Parameter- efficient fine tuning (PEFT)
+Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning
+ - This paper provides a systematic overview of Parameter-Efficient Fine-tuning (PEFT) Methods in all three categories discussed in the lecture videos.
+
+On the Effectiveness of Parameter-Efficient Fine-Tuning
+ - The paper analyzes sparse fine-tuning methods for pre-trained models in NLP.
+
+# LoRA
+LoRA Low-Rank Adaptation of Large Language Models
+https://arxiv.org/pdf/2106.09685.pdf
+ -  This paper proposes a parameter-efficient fine-tuning method that makes use of low-rank decomposition matrices to reduce the number
+ -  of trainable parameters needed for fine-tuning language models.
+
+ QLoRA: Efficient Finetuning of Quantized LLMs
+ - This paper introduces an efficient method for fine-tuning large language models on a single GPU, based on quantization, achieving impressive results on benchmark tests.
+ - https://arxiv.org/pdf/2305.14314.pdf
+
+# Prompt tuning with soft prompts
+The Power of Scale for Parameter-Efficient Prompt Tuning
+https://arxiv.org/pdf/2104.08691.pdf
+ - The paper explores "prompt tuning," a method for conditioning language models with learned soft prompts, achieving competitive performance compared to full fine-tuning and enabling model reuse for many tasks.
+
+
+
+
