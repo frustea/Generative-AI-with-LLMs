@@ -109,5 +109,8 @@ https://arxiv.org/pdf/2104.08691.pdf
  - The paper explores "prompt tuning," a method for conditioning language models with learned soft prompts, achieving competitive performance compared to full fine-tuning and enabling model reuse for many tasks.
 
 
+# Challanges and Applications of Large Language Models
+
+https://arxiv.org/abs/2307.10169
 
 
