@@ -158,6 +158,13 @@ t5_small_pipeline = pipeline(
 
   zero_shot_pipeline = pipeline(
     task="zero-shot-classification",
-    model="cross-encoder/nli-deberta-v3-small",
-    model_kwargs={"cache_dir": DA.paths.datasets},
-)
+    model="cross-encoder/nli-deberta-v3-small")
+
+-Few shot 
+
+few_shot_pipeline = pipeline(
+    task="text-generation",
+    model="EleutherAI/gpt-neo-1.3B",
+    max_new_tokens=10)
+
+
