@@ -123,7 +123,7 @@ https://arxiv.org/abs/2307.10169
 
 
 
-# Dataset 
+# Dataset and Models 
 - xsum: a set of BBC articles and summaries.
  https://huggingface.co/datasets/xsum
 
@@ -160,7 +160,7 @@ t5_small_pipeline = pipeline(
     task="zero-shot-classification",
     model="cross-encoder/nli-deberta-v3-small")
 
--Few shot 
+- Few shot 
 
 few_shot_pipeline = pipeline(
     task="text-generation",
