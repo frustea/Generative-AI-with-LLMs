@@ -137,3 +137,11 @@ https://arxiv.org/abs/2307.10169
 
 
   model="nickwong64/bert-base-uncased-poems-sentiment"
+
+- translation
+
+  en_to_es_translation_pipeline = pipeline(
+    task="translation",
+    model="Helsinki-NLP/opus-mt-en-es",
+    model_kwargs={"cache_dir": DA.paths.datasets},
+)
