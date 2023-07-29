@@ -153,3 +153,11 @@ t5_small_pipeline = pipeline(
     max_length=50,
     model_kwargs={"cache_dir": DA.paths.datasets},
 )
+
+- Zero shot
+
+  zero_shot_pipeline = pipeline(
+    task="zero-shot-classification",
+    model="cross-encoder/nli-deberta-v3-small",
+    model_kwargs={"cache_dir": DA.paths.datasets},
+)
