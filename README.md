@@ -122,3 +122,13 @@ https://arxiv.org/abs/2307.10169
 - 🧠 Awesome ChatGPT Prompts for fun examples with ChatGPT, https://github.com/f/awesome-chatgpt-prompts
 
 
+
+# Dataset 
+- xsum: a set of BBC articles and summaries.
+ https://huggingface.co/datasets/xsum
+
+  xsum_dataset = load_dataset(
+    "xsum", version="1.2.0")
+- peom_sentimnet: https://huggingface.co/datasets/poem_sentiment
+  poem_dataset = load_dataset(
+    "poem_sentiment", version="1.0.0")
