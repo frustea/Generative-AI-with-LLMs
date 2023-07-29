@@ -114,3 +114,11 @@ https://arxiv.org/pdf/2104.08691.pdf
 https://arxiv.org/abs/2307.10169
 
 
+
+# Prompt Engineering 
+- Best practices for OpenAI-specific models, https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+- DAIR.AI guide, https://www.promptingguide.ai/
+- ChatGPT Prompt Engineering Course, https://learn.deeplearning.ai/chatgpt-prompt-eng
+- 🧠 Awesome ChatGPT Prompts for fun examples with ChatGPT, https://github.com/f/awesome-chatgpt-prompts
+
+
