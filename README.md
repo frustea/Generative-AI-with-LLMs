@@ -144,4 +144,12 @@ https://arxiv.org/abs/2307.10169
     task="translation",
     model="Helsinki-NLP/opus-mt-en-es",
     model_kwargs={"cache_dir": DA.paths.datasets},
+
+)
+
+t5_small_pipeline = pipeline(
+    task="text2text-generation",
+    model="t5-small",
+    max_length=50,
+    model_kwargs={"cache_dir": DA.paths.datasets},
 )
